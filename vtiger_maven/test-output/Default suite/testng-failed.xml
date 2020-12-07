@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="vtiger_maven.test_scripts.CreateNewPriceBookTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="signOut"/>
+          <include name="clickLogin"/>
+          <include name="closeBrowser"/>
+          <include name="createNewPB"/>
+        </methods>
+      </class> <!-- vtiger_maven.test_scripts.CreateNewPriceBookTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
